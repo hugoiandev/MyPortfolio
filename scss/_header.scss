@@ -1,0 +1,108 @@
+.header {
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+    transition: .7s;
+    overflow: hidden;
+    &.fixed {
+        position: fixed;
+        background: $color-white;
+        .logo {
+            a {
+                color: $color-black;
+                border-bottom: 3px solid $color-black;
+            }
+        }
+        .menu {
+            ul {
+                li {
+                    a {
+                        color: $color-black;
+                        &::after {
+                            @include animacao-menu-back {
+                                background: $color-black;
+                            }
+                        }
+                        &:hover {
+                            &::after {
+                                background: $color-black;
+                                @include animacao-menu {
+                                    @keyframes animaMenu {
+                                        to {
+                                            background: $color-black;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .menu-mobile {
+                .hamburger {
+                    background: $color-black;
+                    &::before {
+                        background: $color-black;
+                    }
+                    &::after {
+                        background: $color-black;
+                    }
+                    &.ativo {
+                        background: rgba(0,0,0,0);
+                    }
+                }
+            }
+        }
+        .show-menu {
+            border-top-left-radius: 0px;
+        }
+        &.changeColor {
+            background: $primary-color;
+            .logo {
+                a {
+                    color: $color-white;
+                    border-bottom: 3px solid $color-white;
+                }
+            }
+            .menu {
+                ul {
+                    li {
+                        a {
+                            color: $color-white;
+                            &::after {
+                                background: $color-white;
+                                &::after {
+                                    background: $color-white;
+                                }
+                            }
+                        }
+                    }
+                }
+                .menu-mobile {
+                    .hamburger {
+                        background: $color-white;
+                        &::before {
+                            background: $color-white;
+                        }
+                        &::after {
+                            background: $color-white;
+                        }
+                        &.ativo {
+                            background: rgba(0,0,0,0);
+                        }
+                    }
+                }
+            }
+            .show-menu {
+                background: $primary-color;
+                ul {
+                    li {
+                        a {
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

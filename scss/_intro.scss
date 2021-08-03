@@ -1,0 +1,79 @@
+.intro {
+    width: calc(100vw - 17px);
+    height: 100vh;
+    background: url(../assets/img/bg-intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+}
+
+.intro-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+    .text-button {
+        display: flex;
+        visibility: hidden;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 15px;
+        &.ativo {
+            visibility: visible;
+            @include animacao-scroll-down;
+        }
+    }
+    h1 {
+        font-family: $font-principal;
+        font-size: $font-size-intro;
+        line-height: 70px;
+        letter-spacing: 2px;
+        color: white;
+        @include media-intro {
+            margin-left: 0;
+        }
+        @include media-mobile {
+            font-size: 36px;
+        }
+    }
+    img {
+        visibility: hidden;
+        margin-right: 40px;
+        @include animacao-back-hover;
+        &:hover {
+            @include animacao-hover;
+        }
+        @include media-intro {
+            display: none;
+        }
+        &.ativo {
+            visibility: visible;
+            @include animacao-scroll-left;
+        }
+    }
+    @include media-intro {
+        justify-content: center;
+        margin-top: 300px;
+    }
+}
+
+.btn-intro {
+    margin-top: 70px;
+    a {
+        font-family: $font-principal;
+        font-size: $font-size-button;
+        padding: 10px 40px;
+        border-radius: 20px;
+        letter-spacing: 1px;
+        border: 3px solid $color-white;
+        color: $color-white;
+        text-decoration: none;
+    }
+    @include media-mobile {
+        margin-top: 100px;
+    }
+}
+
+

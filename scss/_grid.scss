@@ -1,0 +1,7 @@
+$container-lg: 1366px;
+$container-normal:1100px;
+
+.container {
+    max-width: $container-lg;
+    margin: 0 auto;
+}

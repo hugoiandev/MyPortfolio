@@ -1,0 +1,157 @@
+.contact {
+    background: $primary-color;
+    &.ativo {
+        .container-form-dados {
+            .container-form {
+                visibility: visible;
+                @include animacao-scroll-right;
+            }
+            .container-dados {
+                .dados {
+                    visibility: visible;
+                    @include animacao-scroll-left;
+                }
+                .contact-image {
+                    visibility: visible;
+                    @include animacao-scroll-left;
+                }
+            }
+        }
+    }
+}
+
+.container-titulo {
+    padding-top: 61px;
+    display: flex;
+    justify-content: center;
+    h2 {
+        @include subtitle;
+        margin-bottom: 0px;
+        color: $color-white;
+        @include media-mobile {
+            font-size: $font-size-mobile;
+        }
+    }
+}
+
+.container-form-dados {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 120px;
+    max-width: 1100px;
+    padding-bottom: 90px;
+    @include media-mobile {
+        margin-top: 80px;
+    }
+    .container-form {
+        visibility: hidden;
+        h3 {
+            font-family: $font-principal;
+            font-weight: bold;
+            color: $color-white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            input {
+                width: 412px;
+                height: 50px;
+                border-radius: 30px;
+                border: none;
+                margin-bottom: 40px;
+                box-shadow: 0px 2px 2px rgba($color: #000000, $alpha: 0.4);;
+                @include media-mobile {
+                    width: 250px;
+                }
+            }
+            label {
+                font-family: $font-principal;
+                color: $color-white;
+                margin-bottom: 20px;
+            }
+            textarea {
+                border: none;
+                border-radius: 50px;
+                margin-bottom: 45px;
+                box-shadow: 0px 2px 2px rgba($color: #000000, $alpha: 0.4);;
+            }
+            button {
+                width: 270px;
+                height: 50px;
+                background: $color-white;
+                border: none;
+                border-radius: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                font-size: 20px;
+                font-family: $font-principal;
+                box-shadow: 0px 2px 2px rgba($color: #000000, $alpha: 0.4);;
+                img {
+                    margin-right: 13px;
+                }
+            }
+        }
+    }
+    .container-dados {
+        .dados {
+            margin-left: 40px;
+            visibility: hidden;
+            div {
+                h3 {
+                    font-family: $font-principal;
+                    font-weight: bold;
+                    color: $color-white;
+                    margin-bottom: 24px;
+                    text-align: center;
+                }
+                span {
+                    display: flex;
+                    align-items: center;
+                    a {
+                        font-family: $font-principal;
+                        font-size: 18px;
+                        color: $color-white;
+                        text-decoration: none;
+                    }
+                    img {
+                        margin-right: 15px;
+                    }
+                }
+                &:nth-child(1) {
+                    span {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+            @include media-contact {
+                margin-left: 0;
+            }
+        }
+        .contact-image {
+            visibility: hidden;
+            margin-top: 20px;
+            img {
+                @include animacao-back-hover;
+                &:hover {
+                    @include animacao-hover;
+                }
+                @include media-contact {
+                    display: none;
+                }
+            }
+        }
+        @include media-contact {
+            margin-top: 80px;
+        }
+    }
+    @include media-contact {
+        justify-content: center;
+        max-width: 497px;
+    }
+}
