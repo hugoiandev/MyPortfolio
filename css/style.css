@@ -482,7 +482,7 @@ html {
 @media (max-width: 685px) {
   /* line 1, ../Projetos/portfolio-original/scss/_intro.scss */
   .intro {
-    width: 100vw;
+    width: 100%;
   }
 }
 
