@@ -4,14 +4,17 @@ export default function initMenuFixed (element, section) {
 
     const menu = document.querySelector(header)
     const sections = document.querySelectorAll(sectionElement)
+    let scrollLastTop = 0
 
     // Funcao que fixa o menu
     function fixarMenu() {
-        if (window.pageYOffset > 0) {
+        let scrollTop = window.pageYOffset
+        if (scrollTop > scrollLastTop) {
             menu.classList.add('fixed')
         } else {
             menu.classList.remove('fixed')
         }
+        scrollLastTop = scrollTop
     }
 
     // Funcao que muda a cor do header de acordo com a cor de background
