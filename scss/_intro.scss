@@ -7,6 +7,9 @@
     overflow: hidden;
     position: relative;
     top: 0;
+    @include media-mobile {
+        width: 100vw;
+    }
 }
 
 .intro-text {
