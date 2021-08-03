@@ -55,11 +55,6 @@ table {
   border-spacing: 0;
 }
 
-/* line 134, ../Projetos/portfolio-original/scss/_gerais.scss */
-html {
-  scroll-behavior: smooth;
-}
-
 /* line 4, ../Projetos/portfolio-original/scss/_grid.scss */
 .container {
   max-width: 1366px;
