@@ -619,7 +619,12 @@ html {
   }
 }
 
-/* line 2, ../Projetos/portfolio-original/scss/_about.scss */
+/* line 1, ../Projetos/portfolio-original/scss/_about.scss */
+.about {
+  overflow: hidden;
+}
+
+/* line 3, ../Projetos/portfolio-original/scss/_about.scss */
 .about .container-about {
   display: flex;
   justify-content: center;
@@ -628,25 +633,25 @@ html {
   padding-bottom: 140px;
 }
 
-/* line 8, ../Projetos/portfolio-original/scss/_about.scss */
+/* line 9, ../Projetos/portfolio-original/scss/_about.scss */
 .about .container-about .img-about {
   margin-right: 150px;
 }
 
-/* line 10, ../Projetos/portfolio-original/scss/_about.scss */
+/* line 11, ../Projetos/portfolio-original/scss/_about.scss */
 .about .container-about .img-about img {
   visibility: hidden;
   transition: 0.5s;
 }
 
-/* line 13, ../Projetos/portfolio-original/scss/_about.scss */
+/* line 14, ../Projetos/portfolio-original/scss/_about.scss */
 .about .container-about .img-about img:hover {
   transform: translateY(-20px);
   transition: 0.5s;
 }
 
 @media (max-width: 1295px) {
-  /* line 8, ../Projetos/portfolio-original/scss/_about.scss */
+  /* line 9, ../Projetos/portfolio-original/scss/_about.scss */
   .about .container-about .img-about {
     margin-right: 0;
     display: flex;
@@ -655,18 +660,18 @@ html {
 }
 
 @media (max-width: 685px) {
-  /* line 8, ../Projetos/portfolio-original/scss/_about.scss */
+  /* line 9, ../Projetos/portfolio-original/scss/_about.scss */
   .about .container-about .img-about {
     display: none;
   }
 }
 
-/* line 26, ../Projetos/portfolio-original/scss/_about.scss */
+/* line 27, ../Projetos/portfolio-original/scss/_about.scss */
 .about .container-about .text-about {
   margin-top: 70px;
 }
 
-/* line 28, ../Projetos/portfolio-original/scss/_about.scss */
+/* line 29, ../Projetos/portfolio-original/scss/_about.scss */
 .about .container-about .text-about h2 {
   font-size: 36px;
   font-family: "Arial", Helvetica, sans-serif;
@@ -676,14 +681,14 @@ html {
 }
 
 @media (max-width: 685px) {
-  /* line 28, ../Projetos/portfolio-original/scss/_about.scss */
+  /* line 29, ../Projetos/portfolio-original/scss/_about.scss */
   .about .container-about .text-about h2 {
     font-size: 24px;
     margin-left: 15px;
   }
 }
 
-/* line 35, ../Projetos/portfolio-original/scss/_about.scss */
+/* line 36, ../Projetos/portfolio-original/scss/_about.scss */
 .about .container-about .text-about p {
   visibility: hidden;
   font-family: "Arial", Helvetica, sans-serif;
@@ -693,7 +698,7 @@ html {
 }
 
 @media (max-width: 685px) {
-  /* line 35, ../Projetos/portfolio-original/scss/_about.scss */
+  /* line 36, ../Projetos/portfolio-original/scss/_about.scss */
   .about .container-about .text-about p {
     margin-left: 15px;
     margin-right: 15px;
@@ -701,7 +706,7 @@ html {
   }
 }
 
-/* line 52, ../Projetos/portfolio-original/scss/_about.scss */
+/* line 53, ../Projetos/portfolio-original/scss/_about.scss */
 .about.ativo .container-about .img-about img {
   visibility: visible;
   animation-name: animaScrollDown;
@@ -718,7 +723,7 @@ html {
   }
 }
 
-/* line 58, ../Projetos/portfolio-original/scss/_about.scss */
+/* line 59, ../Projetos/portfolio-original/scss/_about.scss */
 .about.ativo .container-about .text-about p {
   visibility: visible;
   animation-name: animaScrollLeft;
