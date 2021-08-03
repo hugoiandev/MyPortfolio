@@ -60,6 +60,9 @@
         justify-content: center;
         margin-top: 300px;
     }
+    @include media-mobile {
+        margin-top: 200px;
+    }
 }
 
 .btn-intro {

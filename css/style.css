@@ -588,12 +588,19 @@ html {
   }
 }
 
-/* line 65, ../Projetos/portfolio-original/scss/_intro.scss */
+@media (max-width: 685px) {
+  /* line 15, ../Projetos/portfolio-original/scss/_intro.scss */
+  .intro-text {
+    margin-top: 200px;
+  }
+}
+
+/* line 68, ../Projetos/portfolio-original/scss/_intro.scss */
 .btn-intro {
   margin-top: 70px;
 }
 
-/* line 67, ../Projetos/portfolio-original/scss/_intro.scss */
+/* line 70, ../Projetos/portfolio-original/scss/_intro.scss */
 .btn-intro a {
   font-family: "Arial", Helvetica, sans-serif;
   font-size: 24px;
@@ -606,7 +613,7 @@ html {
 }
 
 @media (max-width: 685px) {
-  /* line 65, ../Projetos/portfolio-original/scss/_intro.scss */
+  /* line 68, ../Projetos/portfolio-original/scss/_intro.scss */
   .btn-intro {
     margin-top: 100px;
   }
