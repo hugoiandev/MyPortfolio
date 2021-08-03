@@ -479,14 +479,21 @@ html {
   top: 0;
 }
 
-/* line 12, ../Projetos/portfolio-original/scss/_intro.scss */
+@media (max-width: 685px) {
+  /* line 1, ../Projetos/portfolio-original/scss/_intro.scss */
+  .intro {
+    width: 100vw;
+  }
+}
+
+/* line 15, ../Projetos/portfolio-original/scss/_intro.scss */
 .intro-text {
   display: flex;
   justify-content: space-between;
   margin-top: 250px;
 }
 
-/* line 16, ../Projetos/portfolio-original/scss/_intro.scss */
+/* line 19, ../Projetos/portfolio-original/scss/_intro.scss */
 .intro-text .text-button {
   display: flex;
   visibility: hidden;
@@ -496,7 +503,7 @@ html {
   margin-left: 15px;
 }
 
-/* line 23, ../Projetos/portfolio-original/scss/_intro.scss */
+/* line 26, ../Projetos/portfolio-original/scss/_intro.scss */
 .intro-text .text-button.ativo {
   visibility: visible;
   animation-name: animaScrollDown;
@@ -513,7 +520,7 @@ html {
   }
 }
 
-/* line 28, ../Projetos/portfolio-original/scss/_intro.scss */
+/* line 31, ../Projetos/portfolio-original/scss/_intro.scss */
 .intro-text h1 {
   font-family: "Arial", Helvetica, sans-serif;
   font-size: 48px;
@@ -523,40 +530,40 @@ html {
 }
 
 @media (max-width: 1100px) {
-  /* line 28, ../Projetos/portfolio-original/scss/_intro.scss */
+  /* line 31, ../Projetos/portfolio-original/scss/_intro.scss */
   .intro-text h1 {
     margin-left: 0;
   }
 }
 
 @media (max-width: 685px) {
-  /* line 28, ../Projetos/portfolio-original/scss/_intro.scss */
+  /* line 31, ../Projetos/portfolio-original/scss/_intro.scss */
   .intro-text h1 {
     font-size: 36px;
   }
 }
 
-/* line 41, ../Projetos/portfolio-original/scss/_intro.scss */
+/* line 44, ../Projetos/portfolio-original/scss/_intro.scss */
 .intro-text img {
   visibility: hidden;
   margin-right: 40px;
   transition: 0.5s;
 }
 
-/* line 45, ../Projetos/portfolio-original/scss/_intro.scss */
+/* line 48, ../Projetos/portfolio-original/scss/_intro.scss */
 .intro-text img:hover {
   transform: translateY(-20px);
   transition: 0.5s;
 }
 
 @media (max-width: 1100px) {
-  /* line 41, ../Projetos/portfolio-original/scss/_intro.scss */
+  /* line 44, ../Projetos/portfolio-original/scss/_intro.scss */
   .intro-text img {
     display: none;
   }
 }
 
-/* line 51, ../Projetos/portfolio-original/scss/_intro.scss */
+/* line 54, ../Projetos/portfolio-original/scss/_intro.scss */
 .intro-text img.ativo {
   visibility: visible;
   animation-name: animaScrollLeft;
@@ -574,19 +581,19 @@ html {
 }
 
 @media (max-width: 1100px) {
-  /* line 12, ../Projetos/portfolio-original/scss/_intro.scss */
+  /* line 15, ../Projetos/portfolio-original/scss/_intro.scss */
   .intro-text {
     justify-content: center;
     margin-top: 300px;
   }
 }
 
-/* line 62, ../Projetos/portfolio-original/scss/_intro.scss */
+/* line 65, ../Projetos/portfolio-original/scss/_intro.scss */
 .btn-intro {
   margin-top: 70px;
 }
 
-/* line 64, ../Projetos/portfolio-original/scss/_intro.scss */
+/* line 67, ../Projetos/portfolio-original/scss/_intro.scss */
 .btn-intro a {
   font-family: "Arial", Helvetica, sans-serif;
   font-size: 24px;
@@ -599,7 +606,7 @@ html {
 }
 
 @media (max-width: 685px) {
-  /* line 62, ../Projetos/portfolio-original/scss/_intro.scss */
+  /* line 65, ../Projetos/portfolio-original/scss/_intro.scss */
   .btn-intro {
     margin-top: 100px;
   }
