@@ -745,21 +745,22 @@ html {
   background: #D31B4A;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
-/* line 7, ../Projetos/portfolio-original/scss/_projects.scss */
+/* line 8, ../Projetos/portfolio-original/scss/_projects.scss */
 .container-projects {
   max-width: 1000px;
   padding-top: 90px;
   padding-bottom: 120px;
 }
 
-/* line 13, ../Projetos/portfolio-original/scss/_projects.scss */
+/* line 14, ../Projetos/portfolio-original/scss/_projects.scss */
 .titulo-projects {
   margin-bottom: 115px;
 }
 
-/* line 15, ../Projetos/portfolio-original/scss/_projects.scss */
+/* line 16, ../Projetos/portfolio-original/scss/_projects.scss */
 .titulo-projects h2 {
   font-size: 36px;
   font-family: "Arial", Helvetica, sans-serif;
@@ -770,13 +771,13 @@ html {
 }
 
 @media (max-width: 685px) {
-  /* line 15, ../Projetos/portfolio-original/scss/_projects.scss */
+  /* line 16, ../Projetos/portfolio-original/scss/_projects.scss */
   .titulo-projects h2 {
     font-size: 24px;
   }
 }
 
-/* line 24, ../Projetos/portfolio-original/scss/_projects.scss */
+/* line 25, ../Projetos/portfolio-original/scss/_projects.scss */
 .links-projects {
   display: grid;
   grid-template-columns: 300px 300px 300px;
@@ -784,7 +785,7 @@ html {
   gap: 50px;
 }
 
-/* line 29, ../Projetos/portfolio-original/scss/_projects.scss */
+/* line 30, ../Projetos/portfolio-original/scss/_projects.scss */
 .links-projects div {
   background: #fff;
   border-radius: 10px;
@@ -792,7 +793,7 @@ html {
   visibility: hidden;
 }
 
-/* line 34, ../Projetos/portfolio-original/scss/_projects.scss */
+/* line 35, ../Projetos/portfolio-original/scss/_projects.scss */
 .links-projects div.ativo {
   animation-name: animaScrollZ;
   animation-duration: 1s;
@@ -809,27 +810,27 @@ html {
   }
 }
 
-/* line 38, ../Projetos/portfolio-original/scss/_projects.scss */
+/* line 39, ../Projetos/portfolio-original/scss/_projects.scss */
 .links-projects div img {
   width: 300px;
   height: 350px;
   transition: 0.5s;
 }
 
-/* line 42, ../Projetos/portfolio-original/scss/_projects.scss */
+/* line 43, ../Projetos/portfolio-original/scss/_projects.scss */
 .links-projects div img:hover {
   transform: scale(1.1);
 }
 
 @media (max-width: 1161px) {
-  /* line 24, ../Projetos/portfolio-original/scss/_projects.scss */
+  /* line 25, ../Projetos/portfolio-original/scss/_projects.scss */
   .links-projects {
     grid-template-columns: 300px 300px;
   }
 }
 
 @media (max-width: 685px) {
-  /* line 24, ../Projetos/portfolio-original/scss/_projects.scss */
+  /* line 25, ../Projetos/portfolio-original/scss/_projects.scss */
   .links-projects {
     grid-template-columns: 150px 150px;
     grid-template-rows: 150px 150px 150px;
@@ -838,13 +839,18 @@ html {
 }
 
 /* line 1, ../Projetos/portfolio-original/scss/_tecno.scss */
+.technologies {
+  overflow: hidden;
+}
+
+/* line 5, ../Projetos/portfolio-original/scss/_tecno.scss */
 .title-technologies {
   display: flex;
   justify-content: center;
   padding-top: 90px;
 }
 
-/* line 5, ../Projetos/portfolio-original/scss/_tecno.scss */
+/* line 9, ../Projetos/portfolio-original/scss/_tecno.scss */
 .title-technologies h2 {
   font-size: 36px;
   font-family: "Arial", Helvetica, sans-serif;
@@ -854,13 +860,13 @@ html {
 }
 
 @media (max-width: 685px) {
-  /* line 5, ../Projetos/portfolio-original/scss/_tecno.scss */
+  /* line 9, ../Projetos/portfolio-original/scss/_tecno.scss */
   .title-technologies h2 {
     font-size: 24px;
   }
 }
 
-/* line 13, ../Projetos/portfolio-original/scss/_tecno.scss */
+/* line 17, ../Projetos/portfolio-original/scss/_tecno.scss */
 .container-technologies {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -870,23 +876,23 @@ html {
   padding-bottom: 220px;
 }
 
-/* line 20, ../Projetos/portfolio-original/scss/_tecno.scss */
+/* line 24, ../Projetos/portfolio-original/scss/_tecno.scss */
 .container-technologies div {
   visibility: hidden;
 }
 
-/* line 22, ../Projetos/portfolio-original/scss/_tecno.scss */
+/* line 26, ../Projetos/portfolio-original/scss/_tecno.scss */
 .container-technologies div img {
   transition: 0.5s;
 }
 
-/* line 24, ../Projetos/portfolio-original/scss/_tecno.scss */
+/* line 28, ../Projetos/portfolio-original/scss/_tecno.scss */
 .container-technologies div img:hover {
   transform: translateY(-20px);
   transition: 0.5s;
 }
 
-/* line 28, ../Projetos/portfolio-original/scss/_tecno.scss */
+/* line 32, ../Projetos/portfolio-original/scss/_tecno.scss */
 .container-technologies div.ativo {
   visibility: visible;
   animation-name: animaScrollZ;
@@ -904,27 +910,27 @@ html {
 }
 
 @media (max-width: 1161px) {
-  /* line 13, ../Projetos/portfolio-original/scss/_tecno.scss */
+  /* line 17, ../Projetos/portfolio-original/scss/_tecno.scss */
   .container-technologies {
     grid-template-columns: auto auto auto;
   }
 }
 
 @media (max-width: 930px) {
-  /* line 13, ../Projetos/portfolio-original/scss/_tecno.scss */
+  /* line 17, ../Projetos/portfolio-original/scss/_tecno.scss */
   .container-technologies {
     grid-template-columns: auto auto;
   }
 }
 
 @media (max-width: 685px) {
-  /* line 13, ../Projetos/portfolio-original/scss/_tecno.scss */
+  /* line 17, ../Projetos/portfolio-original/scss/_tecno.scss */
   .container-technologies {
     display: none;
   }
 }
 
-/* line 44, ../Projetos/portfolio-original/scss/_tecno.scss */
+/* line 48, ../Projetos/portfolio-original/scss/_tecno.scss */
 .container-technologies-mobile {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -935,23 +941,23 @@ html {
   display: none;
 }
 
-/* line 52, ../Projetos/portfolio-original/scss/_tecno.scss */
+/* line 56, ../Projetos/portfolio-original/scss/_tecno.scss */
 .container-technologies-mobile div {
   visibility: hidden;
 }
 
-/* line 54, ../Projetos/portfolio-original/scss/_tecno.scss */
+/* line 58, ../Projetos/portfolio-original/scss/_tecno.scss */
 .container-technologies-mobile div img {
   transition: 0.5s;
 }
 
-/* line 56, ../Projetos/portfolio-original/scss/_tecno.scss */
+/* line 60, ../Projetos/portfolio-original/scss/_tecno.scss */
 .container-technologies-mobile div img:hover {
   transform: translateY(-20px);
   transition: 0.5s;
 }
 
-/* line 60, ../Projetos/portfolio-original/scss/_tecno.scss */
+/* line 64, ../Projetos/portfolio-original/scss/_tecno.scss */
 .container-technologies-mobile div.ativo {
   visibility: visible;
   animation-name: animaScrollZ;
@@ -969,7 +975,7 @@ html {
 }
 
 @media (max-width: 685px) {
-  /* line 44, ../Projetos/portfolio-original/scss/_tecno.scss */
+  /* line 48, ../Projetos/portfolio-original/scss/_tecno.scss */
   .container-technologies-mobile {
     grid-template-columns: auto auto;
     display: grid;
