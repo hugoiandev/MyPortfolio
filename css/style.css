@@ -615,7 +615,7 @@ html {
 @media (max-width: 685px) {
   /* line 68, ../Projetos/portfolio-original/scss/_intro.scss */
   .btn-intro {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 
