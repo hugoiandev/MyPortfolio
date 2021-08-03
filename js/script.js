@@ -15,5 +15,10 @@ scrollImg.showIntro()
 const scrollSections = new OnScroll(null, 'section:not(.intro)', '.links-projects div', '.container-technologies div', '.container-technologies-mobile div')
 scrollSections.scrollEvent()
 
+import ScrollSuave from "./modules/scroll-suave.js"
+const linksScroll = new ScrollSuave('[href^="#"]')
+linksScroll.onClickEvent()
+console.log(linksScroll.link)
+
 console.log(scrollSections.projects)
 console.log(scrollSections.techno)

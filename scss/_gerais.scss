@@ -131,10 +131,6 @@ $font-size-mobile: 24px;
     transition: 0.5s;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 // Mixin de media screns
 @mixin media-intro {
     @media (max-width: 1100px) {
