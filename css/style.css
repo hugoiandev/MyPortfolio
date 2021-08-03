@@ -985,9 +985,10 @@ html {
 /* line 1, ../Projetos/portfolio-original/scss/_contact.scss */
 .contact {
   background: #D31B4A;
+  overflow: hidden;
 }
 
-/* line 5, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 6, ../Projetos/portfolio-original/scss/_contact.scss */
 .contact.ativo .container-form-dados .container-form {
   visibility: visible;
   animation-name: animaScrollRight;
@@ -1004,7 +1005,7 @@ html {
   }
 }
 
-/* line 10, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 11, ../Projetos/portfolio-original/scss/_contact.scss */
 .contact.ativo .container-form-dados .container-dados .dados {
   visibility: visible;
   animation-name: animaScrollLeft;
@@ -1021,7 +1022,7 @@ html {
   }
 }
 
-/* line 14, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 15, ../Projetos/portfolio-original/scss/_contact.scss */
 .contact.ativo .container-form-dados .container-dados .contact-image {
   visibility: visible;
   animation-name: animaScrollLeft;
@@ -1038,14 +1039,14 @@ html {
   }
 }
 
-/* line 23, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 24, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-titulo {
   padding-top: 61px;
   display: flex;
   justify-content: center;
 }
 
-/* line 27, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 28, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-titulo h2 {
   font-size: 36px;
   font-family: "Arial", Helvetica, sans-serif;
@@ -1057,13 +1058,13 @@ html {
 }
 
 @media (max-width: 685px) {
-  /* line 27, ../Projetos/portfolio-original/scss/_contact.scss */
+  /* line 28, ../Projetos/portfolio-original/scss/_contact.scss */
   .container-titulo h2 {
     font-size: 24px;
   }
 }
 
-/* line 37, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 38, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados {
   display: flex;
   justify-content: space-between;
@@ -1075,18 +1076,18 @@ html {
 }
 
 @media (max-width: 685px) {
-  /* line 37, ../Projetos/portfolio-original/scss/_contact.scss */
+  /* line 38, ../Projetos/portfolio-original/scss/_contact.scss */
   .container-form-dados {
     margin-top: 80px;
   }
 }
 
-/* line 48, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 49, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-form {
   visibility: hidden;
 }
 
-/* line 50, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 51, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-form h3 {
   font-family: "Arial", Helvetica, sans-serif;
   font-weight: bold;
@@ -1095,13 +1096,13 @@ html {
   margin-bottom: 20px;
 }
 
-/* line 57, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 58, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-form form {
   display: flex;
   flex-direction: column;
 }
 
-/* line 60, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 61, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-form form input {
   width: 412px;
   height: 50px;
@@ -1112,20 +1113,20 @@ html {
 }
 
 @media (max-width: 685px) {
-  /* line 60, ../Projetos/portfolio-original/scss/_contact.scss */
+  /* line 61, ../Projetos/portfolio-original/scss/_contact.scss */
   .container-form-dados .container-form form input {
     width: 250px;
   }
 }
 
-/* line 71, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 72, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-form form label {
   font-family: "Arial", Helvetica, sans-serif;
   color: #fff;
   margin-bottom: 20px;
 }
 
-/* line 76, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 77, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-form form textarea {
   border: none;
   border-radius: 50px;
@@ -1133,7 +1134,7 @@ html {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 82, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 83, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-form form button {
   width: 270px;
   height: 50px;
@@ -1149,18 +1150,18 @@ html {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 95, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 96, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-form form button img {
   margin-right: 13px;
 }
 
-/* line 102, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 103, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-dados .dados {
   margin-left: 40px;
   visibility: hidden;
 }
 
-/* line 106, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 107, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-dados .dados div h3 {
   font-family: "Arial", Helvetica, sans-serif;
   font-weight: bold;
@@ -1169,13 +1170,13 @@ html {
   text-align: center;
 }
 
-/* line 113, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 114, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-dados .dados div span {
   display: flex;
   align-items: center;
 }
 
-/* line 116, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 117, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-dados .dados div span a {
   font-family: "Arial", Helvetica, sans-serif;
   font-size: 18px;
@@ -1183,56 +1184,56 @@ html {
   text-decoration: none;
 }
 
-/* line 122, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 123, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-dados .dados div span img {
   margin-right: 15px;
 }
 
-/* line 127, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 128, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-dados .dados div:nth-child(1) span {
   margin-bottom: 30px;
 }
 
 @media (max-width: 930px) {
-  /* line 102, ../Projetos/portfolio-original/scss/_contact.scss */
+  /* line 103, ../Projetos/portfolio-original/scss/_contact.scss */
   .container-form-dados .container-dados .dados {
     margin-left: 0;
   }
 }
 
-/* line 136, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 137, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-dados .contact-image {
   visibility: hidden;
   margin-top: 20px;
 }
 
-/* line 139, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 140, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-dados .contact-image img {
   transition: 0.5s;
 }
 
-/* line 141, ../Projetos/portfolio-original/scss/_contact.scss */
+/* line 142, ../Projetos/portfolio-original/scss/_contact.scss */
 .container-form-dados .container-dados .contact-image img:hover {
   transform: translateY(-20px);
   transition: 0.5s;
 }
 
 @media (max-width: 930px) {
-  /* line 139, ../Projetos/portfolio-original/scss/_contact.scss */
+  /* line 140, ../Projetos/portfolio-original/scss/_contact.scss */
   .container-form-dados .container-dados .contact-image img {
     display: none;
   }
 }
 
 @media (max-width: 930px) {
-  /* line 101, ../Projetos/portfolio-original/scss/_contact.scss */
+  /* line 102, ../Projetos/portfolio-original/scss/_contact.scss */
   .container-form-dados .container-dados {
     margin-top: 80px;
   }
 }
 
 @media (max-width: 930px) {
-  /* line 37, ../Projetos/portfolio-original/scss/_contact.scss */
+  /* line 38, ../Projetos/portfolio-original/scss/_contact.scss */
   .container-form-dados {
     justify-content: center;
     max-width: 497px;
