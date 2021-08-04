@@ -786,9 +786,10 @@ table {
   border-radius: 10px;
   overflow: hidden;
   visibility: hidden;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 35, ../Projetos/portfolio-original/scss/_projects.scss */
+/* line 36, ../Projetos/portfolio-original/scss/_projects.scss */
 .links-projects div.ativo {
   animation-name: animaScrollZ;
   animation-duration: 1s;
@@ -805,14 +806,14 @@ table {
   }
 }
 
-/* line 39, ../Projetos/portfolio-original/scss/_projects.scss */
+/* line 40, ../Projetos/portfolio-original/scss/_projects.scss */
 .links-projects div img {
   width: 300px;
   height: 350px;
   transition: 0.5s;
 }
 
-/* line 43, ../Projetos/portfolio-original/scss/_projects.scss */
+/* line 44, ../Projetos/portfolio-original/scss/_projects.scss */
 .links-projects div img:hover {
   transform: scale(1.1);
 }
