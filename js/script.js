@@ -16,7 +16,7 @@ const scrollSections = new OnScroll(null, 'section:not(.intro)', '.links-project
 scrollSections.scrollEvent()
 
 import ScrollSuave from "./modules/scroll-suave.js"
-const linksScroll = new ScrollSuave('[href^="#"]')
+const linksScroll = new ScrollSuave('[href^="#"]', 'section')
 linksScroll.onClickEvent()
 console.log(linksScroll.link)
 
