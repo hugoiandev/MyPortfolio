@@ -18,7 +18,3 @@ scrollSections.scrollEvent()
 import ScrollSuave from "./modules/scroll-suave.js"
 const linksScroll = new ScrollSuave('[href^="#"]', 'section')
 linksScroll.onClickEvent()
-console.log(linksScroll.link)
-
-console.log(scrollSections.projects)
-console.log(scrollSections.techno)

@@ -39,7 +39,6 @@ export default function initMenuMobile(menuMobile, hamburger, showMenu, linkMenu
     function initEvent() {
         initHandleClickEvent()
     }
-    console.log(links)
 
     initEvent()
 }
